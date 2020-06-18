@@ -4,8 +4,23 @@
   "description": "Assignment 2 CMPT276",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Chris Horan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-Horan/CMPT276Assign2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chris-Horan/CMPT276Assign2/issues"
+  },
+  "homepage": "https://github.com/Chris-Horan/CMPT276Assign2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "13.x"
+  }
 }
