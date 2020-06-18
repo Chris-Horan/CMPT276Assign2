@@ -1,0 +1,11 @@
+{
+  "name": "assign2",
+  "version": "1.0.0",
+  "description": "Assignment 2 CMPT276",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Horan",
+  "license": "ISC"
+}
