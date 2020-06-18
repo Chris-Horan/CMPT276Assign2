@@ -4,7 +4,7 @@ const app = express();
 //app.set('port', (process.env.PORT || 5000));
 const PORT = process.env.PORT || 5000;
 
-app.listen('port', function() {
+app.listen(PORT, function() {
     console.log('listening on 5000');
 });
 
