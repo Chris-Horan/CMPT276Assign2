@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Assignment 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Assignment 2">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <button onclick="showDisplay()">Display People</button>
+            <button onclick="showInsert()">Add Person</button>
+            <button onclick="showEdit()">Edit Person</button>
+            <button onclick="showRemove()">Remove Person</button>
+            <button onclick="showTable()">Display Info</button>
+        </header>
+        <div id="display">
+            <h1 id="test"></h1>
+        </div>
+        <div id="insert">
+            <label for="nameIns">Name:</label>
+            <input type="text" id="nameIns" placeholder="Name of person" />
+
+            <label for="sizeIns">Size:</label>
+            <input type="text" id="sizeIns" placeholder="Size of person" />
+
+            <label for="heightIns">Height:</label>
+            <input type="text" id="heightIns" placeholder="Height of person" />
+
+            <label for="typeIns">Type:</label>
+            <select name="typeIns" id="typeIns">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+            </select>
+
+            <button onclick="insert()">Add person</button>
+        </div>
+        <div id="edit1">
+            <label for="nameEdi">Name:</label>
+            <input type="text" id="nameEdi" placeholder="Name of person to edit" />
+
+            <button onclick="editHandler()">Edit person</button>
+        </div>
+        <div id="edit2">
+            <p>Person to edit: </p>
+            <p id="editing"></p>
+            <p>Enter new data: </p>
+
+            <label for="sizeEdi">Size:</label>
+            <input type="text" id="sizeEdi" placeholder="Size of person" />
+
+            <label for="heightEdi">Height:</label>
+            <input type="text" id="heightEdi" placeholder="Height of person" />
+
+            <label for="typeEdi">Type:</label>
+            <select name="typeEdi" id="typeEdi">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+            </select>
+
+            <button onclick="edit()">Apply changes</button>
+        </div>
+        <div id="remove">
+            <label for="nameRem">Name:</label>
+            <input type="text" id="nameRem" placeholder="Name of person to remove" />
+            <button onclick="remove()">Apply changes</button>
+        </div>
+        <div id="table"></div>
+        <div id="info">
+            <p>Name: </p>
+            <h3 id="infoName"></h3>
+            <p>Size: </p>
+            <h3 id="infoSize"></h3>
+            <p>Height: </p>
+            <h3 id="infoHeight"></h3>
+            <p>Type: </p>
+            <h3 id="infoType"></h3>
+        </div>
+    </body>
+</html>
